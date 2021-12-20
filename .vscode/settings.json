@@ -1,6 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
-        "queue": "cpp"
+        "*.html": "html",
+        "queue": "cpp",
+        "ios": "cpp"
     }
 }
