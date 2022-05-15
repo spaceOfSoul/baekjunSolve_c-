@@ -1,8 +1,3 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled",
-    "files.associations": {
-        "*.html": "html",
-        "queue": "cpp",
-        "ios": "cpp"
-    }
+    "C_Cpp.errorSquiggles": "Disabled"
 }
