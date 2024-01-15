@@ -1,5 +1,6 @@
 #include <iostream>
 #include <deque>
+#include <stack>
 using namespace std;
 
 int n,k;
@@ -17,7 +18,7 @@ void bfs(){
       return;
     }
 
-    for(int i :{pos*2,pos+1,pos-1}){
+    for(int i :{pos*2,pos-1,pos+1}){
       if(0 <= i && i<= 100000 && !step[i]){
         if(i == pos*2){
           que.push_front(i);
@@ -35,7 +36,7 @@ void bfs(){
 int main() {
   ios::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
   cin >> n >> k;
-  
+
   bfs();
   cout << step[k]-1 << "\n";
 }
