@@ -2,6 +2,7 @@
     "files.associations": {
         "*.html": "html",
         "cmath": "c",
-        "utility": "cpp"
+        "utility": "cpp",
+        "xutility": "cpp"
     }
 }
